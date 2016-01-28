@@ -386,7 +386,7 @@ jQuery(document).ready(function() {
     var actors = _.map(actorNames, function (name) {
         var actor = rel.createActor(name, point.clone());
         // Cobi: this is where you change the vertical spacing of the left column
-        point.y += 110;
+        point.y += 100;
         return actor;
     });
 
@@ -397,7 +397,7 @@ jQuery(document).ready(function() {
         var show = rel.createShow(name, point.clone());
         // Cobi: this is the value you change to modify the 
         // spacing between the right hand side data column.
-        point.y += 133;
+        point.y += 50;
         return show;
     });
     /*
