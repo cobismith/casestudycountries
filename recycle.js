@@ -386,7 +386,7 @@ jQuery(document).ready(function() {
     var actors = _.map(actorNames, function (name) {
         var actor = rel.createActor(name, point.clone());
         // Cobi: this is where you change the vertical spacing of the left column
-        point.y += 50;
+        point.y += 100;
         return actor;
     });
 
