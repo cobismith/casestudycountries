@@ -209,7 +209,7 @@ var rel = {
 
                 this.text.content = name;
                 this.text.characterStyle =  {
-                    fontSize: isActor ? 18 : 18,
+                    fontSize: isActor ? 14 : 14,
                     fillColor: rel.defaultTextColor,
                     font: rel.font
                 };
