@@ -209,7 +209,7 @@ var rel = {
 
                 this.text.content = name;
                 this.text.characterStyle =  {
-                    fontSize: isActor ? 10 : 14,
+                    fontSize: isActor ? 14 : 14,
                     fillColor: rel.defaultTextColor,
                     font: rel.font
                 };
@@ -386,7 +386,7 @@ jQuery(document).ready(function() {
     var actors = _.map(actorNames, function (name) {
         var actor = rel.createActor(name, point.clone());
         // Cobi: this is where you change the vertical spacing of the left column
-        point.y += 100;
+        point.y += 12te0;
         return actor;
     });
 
