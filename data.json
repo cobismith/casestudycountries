@@ -1,5 +1,12 @@
 var DATA = {
 
+   "Australia": [
+        "CITES",
+        "CBD",
+        "UNFCCC",
+        "UNDRIP"
+    ],
+
    "Malaysia": [
         "UNREDD",
         "CITES",
