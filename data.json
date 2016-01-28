@@ -1,0 +1,25 @@
+var DATA = {
+
+   "Malaysia": [
+        "UNREDD",
+        "CITES",
+        "CBD",
+        "UNFCCC",
+        "UNDRIP"
+    ],
+   "Papua New Guinea": [
+        "FCPF",
+        "UNREDD",
+        "CITES",
+        "CBD",
+        "UNFCCC"
+    ],
+   "Tanzania": [
+        "FCPF",
+        "UNREDD",
+        "CITES",
+        "CBD",
+        "UNFCCC",
+        "UNDRIP"
+    ],
+};
